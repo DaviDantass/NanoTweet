@@ -1,9 +1,13 @@
 # NanoTweet 
 
+[![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://openjdk.org/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.3-brightgreen.svg)](https://spring.io/projects/spring-boot)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-blue.svg)](https://www.mysql.com/)
+
 Uma rede social minimalista construída com **Spring Boot**, onde cada post tem até **42 caracteres**.
 Projeto focado em arquitetura limpa, boas práticas e stack moderna Java.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### **Backend**
 
@@ -39,7 +43,7 @@ Projeto focado em arquitetura limpa, boas práticas e stack moderna Java.
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 * CRUD de usuários
 * Posts de 1–42 caracteres
@@ -51,7 +55,7 @@ Projeto focado em arquitetura limpa, boas práticas e stack moderna Java.
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Via Docker (recomendado)
 
@@ -67,7 +71,7 @@ docker-compose up --build
 
 ---
 
-## 📡 Exemplos de API
+## Exemplos de API
 
 Criar usuário:
 
@@ -87,7 +91,7 @@ curl -X POST "http://localhost:8080/posts?authorId=1" \
 
 ---
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 ```
 Controller → Service → Repository
@@ -96,19 +100,8 @@ Controller → Service → Repository
 
 ---
 
-## 🎯 O que este projeto demonstra
 
-* Domínio de **Spring Boot 3** + **Java 21**
-* Arquitetura organizada em camadas
-* Uso real de **DTOs**, validações e tratamento de erro
-* Boas práticas REST
-* Testes unitários + integração bem distribuídos
-* Containerização completa com Docker
-* Migração e versionamento de banco com Flyway
-
----
-
-## 👨‍💻 Autor
+## Autor
 
 GitHub: [@DaviDantass](https://github.com/DaviDantass)
 
